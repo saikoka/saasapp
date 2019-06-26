@@ -32,7 +32,10 @@
  .navbar{
    border: none;
  }
- 
+ .navbar-brand{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 800;
+ }
  .home-call{
    color:#000000;
    margin-top:-20px;
@@ -45,3 +48,12 @@
   color: black;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:black;
+}
+.navbar-default .navbar-toggle{
+  border: 2px solid black;
+  &:hover, &:focus{
+    background-color: #D75854;
+  }
+}
